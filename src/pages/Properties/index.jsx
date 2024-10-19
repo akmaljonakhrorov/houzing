@@ -1,4 +1,5 @@
 import React from "react";
-import Properties from "../../components/Properties";
+import Properties from "../../components/Properties/index.jsx";
 
-export const PropertiesPage = () => Properties;
+const PropertiesPage = () => <Properties />;
+export default PropertiesPage;
