@@ -1,10 +1,10 @@
 import React from "react";
 import { Input } from "../Generics";
+import GenCarousel from "../Carousel";
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <Input width={200} placeholder={"country"} />
+      <GenCarousel />
     </div>
   );
 };
